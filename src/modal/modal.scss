@@ -1,0 +1,65 @@
+.modal-content {
+    padding: 30px;
+    background-color: #333;
+    color: #fff;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    button {
+        text-transform: uppercase;
+        border: none;
+        font-weight: bold;
+        margin-right: 10px;
+        padding: 20px;
+        outline: none;
+    }
+
+    p {
+        width: 70%;
+        margin: 16px auto;
+        text-align: center;
+    }
+
+    span {
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn-group {
+        text-align: center;
+    }
+
+    .cancel-btn {
+        background-color: #666;
+        color: #fff;
+        -webkit-transition: background-color 0.3s;
+        -moz-transition: background-color 0.3s;
+        transition: background-color 0.3s;
+    }
+
+    .cancel-btn:hover {
+        background-color: #555;
+    }
+    
+    .delete-btn {
+        background-color: #c33;
+        color: #fff;
+        -webkit-transition: background-color 0.3s;
+        -moz-transition: background-color 0.3s;
+        transition: background-color 0.3s;
+    }
+
+    .delete-btn:hover {
+        background-color: #a22;
+    }
+
+}
+
+.trash-icon {
+    height: 20px;
+    width: 15px;
+    background-image: url('../assets/icons/trash.svg');
+    background-size: contain;
+}

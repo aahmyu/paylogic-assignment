@@ -1,0 +1,21 @@
+.add-to-cart {
+    padding: 25px 50px;
+    background-color: #666;
+    color: #fff;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-right: 10px;
+    border: none;
+    font-weight: bold;
+    height: 100%;
+}
+
+.add-to-cart:hover {
+    background-color: #ff0;
+    color: #000;
+}
+
+.add-to-cart:focus {
+    outline: none;
+}

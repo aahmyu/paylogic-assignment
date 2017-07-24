@@ -1,0 +1,48 @@
+.input-panel {
+    display: flex;
+    background-color: #666;
+    margin-right: 10px;
+    height: 100%;
+
+    span {
+        display: flex;
+        cursor: pointer;
+        width: 30%;
+        justify-content: center;
+        align-items: center;
+        -webkit-transition: background-color 0.3s;
+        -moz-transition: background-color 0.3s;
+        transition: background-color 0.3s;
+    }
+
+    span:hover {
+        background-color: #555;
+    }
+
+    input {
+        padding: 5px;
+        background-color: #666;
+        color: #fff;
+        border: 1px solid #000;
+        width: 40%;
+        text-align: center;
+    }
+
+    input:focus {
+        outline: none;
+    }
+
+    .plus-icon {
+        height: 20px;
+        width: 20px;
+        background-image: url('../assets/icons/add.svg');
+        background-size: contain;
+    }
+
+    .minus-icon {
+        height: 2px;
+        width: 20px;
+        background-image: url('../assets/icons/remove.svg');
+        background-size: contain;
+    }
+}

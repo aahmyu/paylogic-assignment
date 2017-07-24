@@ -1,0 +1,4 @@
+<button class="shopping-cart">
+    <span [ngClass]="{'cart-icon': count === 0, 'cart-icon-full': count > 0}"></span>
+    <span [ngClass]="{'cart-text': count > 0}">Shopping cart <span class="count-span" *ngIf='count > 0'>({{count}})</span></span>
+</button>

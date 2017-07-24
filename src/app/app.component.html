@@ -1,0 +1,6 @@
+<div class="container">
+    <add-to-cart *ngIf='showAddBtn' (onInc)='onInc($event)' ></add-to-cart>
+    <input-panel *ngIf='showInputPanel' (onInc)='onInc($event)' (onDec)='onDec($event)' [count]='itemsCount' ></input-panel>
+    <shopping-cart [count]='itemsCount'></shopping-cart>
+</div>
+
